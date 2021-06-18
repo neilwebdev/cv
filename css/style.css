@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.profile-pic {
+  border-radius: 50%;
+  height: 300px;
+  border: 5px solid black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.intro {
+  padding: 20px;
+}
+
+.skills {
+  border: 2px solid rgb(66, 56, 56);
+  border-radius: 5px;
+  column-width: 220px;
+  margin: 40px 0 60px 20px;
+  border-collapse: collapse;
+}
+
+.skills td {
+  border: 1px solid darkgrey;
+  padding: 5px 50px 5px 5px;
+  text-align: left;
+}
+.skills th {
+  border-collapse: collapse;
+  border: 1px solid darkgrey;
+  padding: 5px 0 5px 0;
+}
+.work {
+  border: 2px solid rgb(66, 56, 56);
+  border-radius: 5px;
+  column-width: 220px;
+  margin: 10px 0 60px 20px;
+  border-collapse: collapse;
+}
+
+.work td {
+  border: 1px solid darkgrey;
+  padding: 5px 50px 5px 5px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.work th {
+  border-collapse: collapse;
+  border: 1px solid darkgrey;
+}
+
+.email,
+.colour,
+.fruit {
+  margin-bottom: 30px;
+}
